@@ -16,7 +16,7 @@
         </td></tr>
         <tr><td>出版社：</td><td><input type="text" name="publisher" th:field="*{publisher}" th:errorclass="error-input" />
         </td></tr>
-        <tr><td>価格：</td><td><input type="text" name="price" th:field="*{writter}" th:errorclass="error-input" />
+        <tr><td>価格：</td><td><input type="text" name="price" th:field="*{price}" th:errorclass="error-input" />
             <span th:if="${#fields.hasErrors('price')}" th:errors="*{price}" class="error-messages">error!</span>
         </td></tr>
     </table>
